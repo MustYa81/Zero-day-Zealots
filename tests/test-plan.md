@@ -41,7 +41,7 @@ Testing will be conducted in the following environments:
 4. Production environment – final validation (smoke only)
 
 
-# Target Platforms:
+## Target Platforms:
 1. Windows 10 – Chrome, Firefox, Edge
 2. Android OS – Chrome
 
@@ -63,7 +63,7 @@ Defects will be logged in JIRA using a standard template with detailed reproduct
 
 ## 8. Test Schedule
 | Task	|          Start Date	    |              End Date |
- Test Planning  | June 30	           |  July 2 |
+| Test Planning  | June 30	           |  July 2 |
 | Test Case Design	| July 2	         | July 2 |
 | Unit Testing | 	July 3       | 	July 4 |
 | Integration Testing | 	July 4   	| July 6
@@ -110,7 +110,7 @@ All documents including Test Plan, Test Cases, and Summary Reports will be revie
 
 ---
 
-#### Test Strategy – Clean City Project
+# Test Strategy – Clean City Project
 ---
 
  ## Introduction
@@ -127,14 +127,14 @@ This Test Strategy document outlines the testing approach for the Clean City pro
 
 ## Scope of Testing
 
-# In-scope:
+## In-scope:
 1. User registration, login, and authentication
 2. Waste pickup scheduling
 3. Admin dashboard and analytics
 4. Public complaint reporting
 5. Notification and alert system
 
-# Out-of-scope:
+## Out-of-scope:
 1. Payment integration (not in MVP)
 2. Third-party map-based routing (placeholder APIs used)
 
@@ -158,21 +158,21 @@ This Test Strategy document outlines the testing approach for the Clean City pro
 ---
 
 ## Test Environment
-# Hardware:
+## Hardware:
 1. Minimum: 4-core CPU, 8GB RAM (for testers)
 2. Server: 8-core, 32GB RAM, SSD
 
-#  Software:
+## Software:
 1. Backend: Node.js, Express.js
 2. Frontend: React.js
 3. Database: PostgreSQL
 4. Test Framework: Jest, Selenium
 
-# Network:
+## Network:
 1. Stable connection with minimum 10 Mbps for remote testing
 2. Localhost and deployed environments (e.g., AWS)
 
-#  Devices/Browsers:
+##  Devices/Browsers:
 1. Chrome (latest 2 versions)
 2. Firefox (latest 2 versions)
 3. Safari (latest 2 versions)
@@ -224,7 +224,7 @@ This Test Strategy document outlines the testing approach for the Clean City pro
 
 ---
 
-#### Team Member Roles and Responsibilities
+# Team Member Roles and Responsibilities
 ---
 
 ## Objectives of this document:
@@ -255,43 +255,43 @@ Any bugs discovered during early planning or setup will be logged as Bug issues 
 
 ---
 
-## Group Leader 
- 1. Project Management Setup
-●Verify Jira account creation for all team members
-●Confirm project setup with correct name (CleanCity QA Testing) and key (CLEANCITY)
-●Ensure all team members are added to the project
-●Define QA roles within the team
-●Document responsibilities for each role
-●Create a communication plan for team coordination
-●Define overall testing objectives and scope
-●Identify test environments and tools needed
-●Configure Jira and define project structure
+# Group Leader 
+##  Project Management Setup
+1. Verify Jira account creation for all team members
+2. Confirm project setup with correct name (CleanCity QA Testing) and key (CLEANCITY)
+3. Ensure all team members are added to the project
+4. Define QA roles within the team
+5. Document responsibilities for each role
+6. Create a communication plan for team coordination
+7. Define overall testing objectives and scope
+8. Identify test environments and tools needed
+9. Configure Jira and define project structure
 
 ---
 
-## Team Member 1
-Jira Project Configuration
-● Create Epics from 1 to 7.
-● Create stories and tasks under each epic.
-● Create a bug template 
+# Team Member 1
+## Jira Project Configuration
+1. Create Epics from 1 to 7.
+2. stories and tasks under each epic.
+3. Create a bug template 
 
 ---
 
-## Team Member 2 
+# Team Member 2 
 1. Initialize the repository in GitHub with the project structure.
 2. Create the folder (tests) in the root of the repository (tests/test-plan.md)
 
 ---
 
-## Test tasks and other responsibilities
+# Test tasks and other responsibilities
 
 ---
-## Group Leader 
+# Group Leader 
 # Epic: Community features testing
-# Tasks:
-●Test blog system and community feed functionalities.
-●User profile functionality testing
-●Social features interaction testing
+## Tasks:
+1. Test blog system and community feed functionalities.
+2. User profile functionality testing
+3. Social features interaction testing
 
 # Epic: Admin functions testing
 1. Admin panel functionality
@@ -303,46 +303,46 @@ Jira Project Configuration
 3. Plan real-time data updates testing
 ---
 
-## Team Member 1
+# Team Member 1
 # Epic: Authentication System Testing
-# Tasks:
-●Create functional test cases for user registration
-●Develop test scenarios for valid registration data
+## Tasks:
+1. Create functional test cases for user registration
+2. Develop test scenarios for valid registration data
 
 
 # Epic: Waste Management Testing
-# Tasks:
-●Draft test cases for waste pickup scheduling
-●Plan request management and status tracking tests
-●Test waste pickup scheduling and request management.
+## Tasks:
+1. Draft test cases for waste pickup scheduling
+2. Plan request management and status tracking tests
+3. Test waste pickup scheduling and request management.
 
 ---
 
-## Team Member 2 
-# Epic: Dashboard & Analytics Testing
-# Tasks:
-●Develop test cases for dashboard statistics
-●Create scenarios for chart visualization functionality
-●Test dashboard features and analytics.
+# Team Member 2 
+## Epic: Dashboard & Analytics Testing
+## Tasks:
+1. Develop test cases for dashboard statistics
+2. Create scenarios for chart visualization functionality
+3. Test dashboard features and analytics.
 
 # Epic: Content Management Testing
-# Tasks:
-●Create test cases for blog articles and comments
-●Plan admin functionality tests
+## Tasks:
+1. Create test cases for blog articles and comments
+2. Plan admin functionality tests
 
 ---
 
-## Deliverables for Week 1
+# Deliverables for Week 1
 
-# Repository Initialization:
+## Repository Initialization:
 1. Repository initialized with proper folder structure.
 2. The tests folder was created.
 
-# Test Plan Documentation:
+## Test Plan Documentation:
 1. Initial test plan and strategy documented (tests/test-plan.md).
 2. Roles and Responsibilities
 
-# Jira Setup:
+## Jira Setup:
 1. Epics, stories, and tasks created in Jira.
 2. Custom fields configured (Environment, Severity, etc.).
 
