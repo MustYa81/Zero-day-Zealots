@@ -33,7 +33,7 @@ Project Management Setup
 ●	Identify test environments and tools needed.  
 ●	Configure Jira and define project structure.  
 
-## Team Member 1  
+### Team Member 1  
 
 Jira Project Configuration  
 
@@ -45,10 +45,9 @@ Jira Project Configuration
  
 ## Test tasks and other responsibilities
 
-## Group Leader
+### Group Leader
 
-## Epic: Community features testing  
-
+### Epic: Community features testing  
 Tasks:
 
 ●	Test blog system and community feed functionalities.
@@ -56,33 +55,30 @@ Tasks:
 ●	Social features interaction testing
 
 
-## Epic: Admin functions testing  
-
+### Epic: Admin functions testing  
+Tasks
 •	Admin panel functionality
 •	Design test cases for leaderboards and gamification features Epic: Non-functional testing
 •	Page load performance testing
 •	Browse compatibility testing
 •	Plan real-time data updates testing Team Member 1
 
-## Epic: Authentication System Testing  
-
+### Epic: Authentication System Testing  
 Tasks:
 
 ●	Create functional test cases for user registration
 ●	Develop test scenarios for valid registration data
  
-## Epic: Waste Management Testing
-
+### Epic: Waste Management Testing
 Tasks:
 
 ●	Draft test cases for waste pickup scheduling.  
 ●	Plan request management and status tracking tests.  
 ●	Test waste pickup scheduling and request management.  
 
-## Team Member 2
+### Team Member 2
 
 ## Epic: Dashboard & Analytics Testing
-
 Tasks:
 
 ●	Develop test cases for dashboard statistics
@@ -90,24 +86,23 @@ Tasks:
 ●	Test dashboard features and analytics.
 
 ## Epic: Content Management Testing
-
 Tasks:
 
 ●	Create test cases for blog articles and comments.  
 ●	Plan admin functionality tests.   
 
 ## Deliverables for Week 1:   
-## Repository Initialization:  
+### Repository Initialization:  
 
 Repository initialized with proper folder structure.  
 The tests folder was created.  
 
-## Test Plan Documentation:  
+### Test Plan Documentation:  
 
 Initial test plan and strategy documented (tests/test-plan.md).  
 Roles and Responsibilities.  
 
-## Jira Setup:  
+### Jira Setup:  
 
 Epics, stories, and tasks created in Jira.  
 Custom fields configured (Environment, Severity, etc.).  
