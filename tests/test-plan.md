@@ -41,18 +41,18 @@ Defects will be logged in JIRA using a standard template with detailed reproduct
 
 ## 7.	Test Schedule  
 
-|     Task               | Start Date | End Date |
-|------------------------|-----------------------|
-| Test Planning          | June 30    | July 2   |
-| Test Case Design       | July 2     | July 2   |
-| Unit Testing           | July 3     | July 4   |
-| Integration Testing    | July 4     | July 6   |
-| System Testing         | July 7     | July 8   |
-| UAT & Regression       | July 9     | July 11  |
-| Test Closure           | July 12    | July 13  |
-| Bug Fixing & Retesting | July 13    | July 14  |
-| Report Creation and    | July 14    | July 16  |
-| Submission             |            |          |
+|     Task               | Start Date | End Date |  
+|------------------------|-----------------------|  
+| Test Planning          | June 30    | July 2   |  
+| Test Case Design       | July 2     | July 2   |  
+| Unit Testing           | July 3     | July 4   |  
+| Integration Testing    | July 4     | July 6   |  
+| System Testing         | July 7     | July 8   |  
+| UAT & Regression       | July 9     | July 11  |  
+| Test Closure           | July 12    | July 13  |  
+| Bug Fixing & Retesting | July 13    | July 14  |  
+| Report Creation and    | July 14    | July 16  |  
+| Submission             |            |          |  
 
 
 
