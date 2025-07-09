@@ -1,0 +1,71 @@
+
+# Updated Test Plan and Strategy
+### GROUP NAME: ZERO-DAY ZEALOTS 
+## PHASE 2 SUBMISSION
+
+
+---
+## 1.Group Members 
+1. Sandra Chelangat - sandramitei5@gmail.com
+2. Mustafa Ibrahim -mustibr55@gmail.com
+3. Mpendulo Maduna - mpendulodnyawose@gmail.com
+
+## 🎯 Objective
+The purpose of this updated test plan is to document the progress made so far in the Clean City waste management platform. Also,to ensure that the CleanCity web application functions correctly, securely, and performs well across browsers and devices.
+
+# Scope of Testing
+## Area - Description
+1. User Authentication - Login, registration, session management
+2. Form Validation - Pickup request, feedback, registration
+3. Dashboard Filtering - Status/location-based filtering
+4. Admin Panel Functionality - Request status updates, statistics display
+5. UI/UX - Responsive design, accessibility, error/success messages
+6. Security Vulnerabilities - Plain text passwords, ID enumeration, weak validation
+7. Non-Functional - Performance, browser compatibility
+
+## Epic: Authentication System Testing
+### Tasks:
+1. Create functional test cases for user registration
+2. Develop test scenarios for valid registration data
+
+## Epic: Waste Management Testing
+### Tasks:
+●Draft test cases for waste pickup scheduling
+●Plan request management and status tracking tests
+●Test waste pickup scheduling and request management.
+
+-Early manual test scripts for the Authentication system and waste management epics. 
+
+##  Approach
+
+## Type           |    Tool                         | Purpose
+1. Manual Testing | Browser DevTools                 |     Functional testing, UI checks
+2. Unit Testing |         Jest                     |       Logic validation in  dataService
+3. Exploratory Testing | Chrome/Firefox | Edge cases, security flaws
+4. Performance Testing | Lighthouse    | Load times, metrics
+5. Compatibility Testing | Cross-browser tools | Ensuring consistent behavior
+
+# 🛠️ Tools Used
+1. Jest : For unit testing JavaScript logic
+2. Lighthouse : For performance audits
+3. Chrome DevTools : For debugging, localStorage inspection
+4. Markdown : For documentation (test-cases.md, defect-log.md)
+5. Jira: For tracking the test cases. 
+
+
+# Entry Criteria
+1. HTML/CSS/JS files are accessible locally
+2. App runs in browser
+3. Demo credentials are known
+
+# ✅ Exit Criteria
+1. All test cases executed
+2. Critical bugs resolved or documented
+3. Test results and defect logs completed
+
+## Test Deliverables
+1. Updated Test Plan Document
+2. Test Cases 
+3. Manual Test Scripts 
+
+
